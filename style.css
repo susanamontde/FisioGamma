@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*reset*/
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*Header*/
+.icono-header {
+    height: 100px;
+    background-color: #0ca1db;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono-header p {
+    color: white;
+    font-size: 20px;
+
+}
+
+.icon-header {
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+}
+
+.icon-header:hover {
+    transform: translateY(-5px);
+}
+
+
+.img-header {
+    width: 125px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 40px;
+
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: row;
+    color: #0ca1db;
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.nav-item a {
+    color: #0ca1db;
+    display: flex;
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    transform: translateY(-3px);
+}
+
+
+/*Main*/
+
+.banner {
+    padding: 0 50px;
+    background-image: url(./imagenes/Fisioterapia.jpeg);
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+    opacity: 80%;
+    margin-top: 10px;
+}
+
+.contenido-banner {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenido-banner h3 {
+    font-size: 35px;
+    padding: 10 0px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-40%, -50%);
+    color: white;
+    font-weight: bold;
+}
+
+/*Quiénes Somos*/
+
+#quienesomos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin-top: 135px;
+    background-color: #f7f9f8;
+
+}
+
+#quienesomos img {
+    display: flex;
+    flex-direction: row;
+    max-width: 300px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.quienes {
+    margin-left: 35px;
+    text-align: center;
+}
+
+.quienes h4 {
+    color: #0ca1db;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.quienes p {
+    color: #000507;
+    padding: 0 50px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    font-size: 18px;
+}
+
+/*Especialidades*/
+
+#especialidades {
+    padding: 0px 50px;
+    background-color: #587cab;
+    opacity: 70%;
+    margin-top: 10px;
+}
+
+.esp h4 {
+    color: #f7f9f8;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    margin-top: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.contenedor-esp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 30px;
+    margin-top: 80px;
+}
+
+.caja {
+    text-align: center;
+}
+
+.caja img {
+    width: 45vh;
+    height: 35vh;
+    border-radius: 5%;
+}
+
+.caja h1 {
+    font-size: 20px;
+    margin: 15 0px;
+    color: #000507;
+    margin-top: 20px;
+
+}
+
+.caja p {
+    font-size: 16px;
+    color: #040404;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+/*sucursales*/
+
+#sucursales {
+    background-position: center;
+     padding: 0px 50px;
+    background-color: #587cab;
+    opacity: 70%;
+
+}
+
+#sucursales h4 {
+    color: #f7f9f8;
+    padding-top: 40px;
+    margin-top: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+
+#sucursales h5 {
+    color: #f7f8f9;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.textohorarios {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #0ca1db;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.textohorarios2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px;
+
+}
+
+.textohorarios4 {
+    margin-left: 60px;
+}
+
+
+
+.suc-caja {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    padding: 0px 120px;
+    margin-top: 40px;
+
+}
+
+.caja-suc h1 {
+    font-size: 18px;
+    color: #040404;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 70px;
+
+}
+
+.caja-suc iframe {
+    margin-right: 195px;
+    margin: 10px;
+    max-width: 100%;
+    width: 45vh;
+    height: 35vh;
+
+}
+
+
+
+/*Footer*/
+
+.menu-footer {
+    background-color: #0ca1db;
+    width: 100%;
+    padding-top: 20px;
+   
+}
+
+.icono-footer{
+    display: flex;
+    justify-content: center;  
+}
+.icon-footer {
+    list-style: none;
+    margin: 5px;
+    display: inline-block;    
+}
+
+.icon-footer:hover {
+    transform: translateY(-5px);
+}
+
+
+
+
+.barra-footer{
+    color: #f7f8f9;
+    list-style: none;
+    margin: 10px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    
+      
+}
+
+
+.nav-footer{
+    color: #f7f8f9;
+    list-style: none;
+    display: inline-block;  
+   
+}
+
+
+
+.nav-footer a{
+    color: #f7f8f9;
+    list-style: none;
+    text-decoration: none;
+    margin: 10px;
+    transition: 0.5s; 
+  
+}
+
+.nav-footer:hover {
+    transform: translateY(-3px);
+}
+
+.final{
+    color: #f7f8f9;
+    font-size: 80%;
+    display: flex;
+    justify-content: center;
+}
+   
+ 
+
+
+/*Responsive/mobile*/
+
+@media (min-width:480px) and (max-width: 700px) { 
+    .caja-suc iframe {
+        width: 80%;
+        height: 20vh;
+    }}
+
+@media (min-width:480px) and (max-width: 700px) {
+    #quienesomos {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    #quienesomos img {
+        width: 100%;
+        height: auto;
+    }
+
+    .quienes {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .quienes p {
+        padding: 0 20px;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .contenedor-esp {
+        flex-direction: column;
+    }
+
+    .caja {
+        margin: 20px auto;
+    }
+
+    .caja img {
+        width: 30vh;
+        height: 20vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .caja img {
+        width: 20vh;
+        height: 15vh;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .icono-header {
+        height: 40px;
+    }
+}
